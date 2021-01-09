@@ -30,6 +30,6 @@ public class Child {
     }
 
     public void eat() {
-        System.out.println(name + "迟到了" + apple.getOrigin() + "种植的" + apple.getTitle());
+        System.out.println(name + "吃到了" + apple.getOrigin() + "种植的" + apple.getTitle());
     }
 }
