@@ -12,14 +12,6 @@ public class SpringApplication {
         Apple sweetApple = context.getBean("sweetApple", Apple.class);
         System.out.println(sweetApple.getTitle());
 
-        // 从IoC容器中提取beanId=lily的对象
-        Child lily = context.getBean("lily", Child.class);
-        lily.eat();
 
-        Child andy = context.getBean("andy", Child.class);
-        andy.eat();
-
-        Child luna = context.getBean("luna", Child.class);
-        luna.eat();
     }
 }
